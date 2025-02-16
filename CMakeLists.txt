@@ -1,11 +1,7 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.10)
 
-project(MyMod)
+project(VolttDash)
 
-set(CMAKE_CXX_STANDARD 17)
+add_library(VolttDash SHARED src/VolttDash.cpp)
 
-include_directories("VolttDash")
-
-add_executable(MyMod src/main.cpp)
-
-target_link_libraries(MyMod Geode)
+target_link_libraries(VolttDash PRIVATE geode
