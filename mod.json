@@ -3,7 +3,7 @@
       "version": "1.0.0"
       "gd": {
               "win":"2.207"
-              "android": "-"
+              "android": "*"
               "mac": "2.207"
               "ios": "2.207"
       }
