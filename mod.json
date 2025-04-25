@@ -1,23 +1,26 @@
  {
-      "geode": "4.2.0",
-      "version": "1.0.0"
+      "geode": "4.3.1",
+      "version": "v1.0.0"
       "gd": {
-              "win":"2.207"
-              "mac": "2.207"
-              "ios": "2.207"
+              "win":"2.2074"
+              "mac": "2.2074"
+              "ios": "2.2074"
+	      "android": "2.2074"
       }
-      "early-load": true,
+      "early-load": false,
       "id": "Danylo.volttdash",
       "name": "Voltt Dash",
       "developer": "Danylo",
-      "description": "My first geode mod :)",
+      "description": "My first geode mod!",
       "Links": {
                 "source": "https://github.com/DANYLOGOODBOY/Voltt-Dash",
                 "community": "https://discord.gg/paEbNHvBTM"
       }
-      "tags": 
+      
+	      "tags": 
 		"offline",
 		"gameplay",
 		"universal",
  		"customization",
-  }
+                               
+  }       
